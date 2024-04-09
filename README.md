@@ -9,6 +9,6 @@
 → LinkedIn icon: UIcons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
 
 ## Technics used
-→ CSS Flexbox
-→ CSS Shapes
-→ CSS Transitions
+→ CSS Flexbox<br>
+→ CSS Shapes<br>
+→ CSS Transitions<br>
