@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'beauregular';
+    src: url('beauregular-0nlo-webfont.woff2') format('woff2'),
+         url('beauregular-0nlo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aella_freeregular';
+    src: url('aella_free-webfont.woff2') format('woff2'),
+         url('aella_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin:0px;
+    background-color:#e7e9f5;
+}
+
+.flexboxcontainer {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.leftside {
+    display:flex;
+    width:50vh;
+}
+
+.triangle {
+    clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0 100%, 0 0);
+    background-color:#6a5b9a;
+    height:100vh;
+    width:100vh;
+}
+
+.arabesqueleft {
+    filter: invert(99%) sepia(76%) saturate(4897%) hue-rotate(180deg) brightness(111%) contrast(92%);
+    height:70vh;
+    width:auto;
+    margin-left: 2vh;
+    margin-top: 15vh;
+}
+
+.centerside {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:20vh;
+}
+
+header{
+    display:flex;
+}
+
+h1 {
+    font-family: 'aella_freeregular';
+    font-size: 10vh;
+}
+
+.aboutme {
+    border: 3px solid #6a5b9a;
+    display:flex;
+    flex-direction: column;
+}
+
+.rightside {
+    display:flex;
+    width:30vh;
+}
+
+.arabesqueright {
+    filter: invert(36%) sepia(46%) saturate(489%) hue-rotate(214deg) brightness(92%) contrast(90%);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height:70vh;
+    width:auto;
+    margin-right: 2vh;
+    margin-top: 15vh;
+}
